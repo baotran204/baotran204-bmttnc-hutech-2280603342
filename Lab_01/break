@@ -1,0 +1,5 @@
+#Tìm số chia hết cho 5 đầu tiên trong khoảng từ 1 đến 100
+for i in range(1, 101):
+    if i % 5 == 0:
+        print("Số chia hết cho 5 đầu tiên là:", i)
+        break
